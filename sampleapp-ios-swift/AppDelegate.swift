@@ -18,8 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         MSAppCenter.start("8574c052-012f-4356-8c0f-0d94f81d28c7", withServices: [
             MSAnalytics.self,
-            MSCrashes.self,
-            MSPush.self,
+            MSCrashes.self
         ])
         
         

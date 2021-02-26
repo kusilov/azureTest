@@ -20,7 +20,7 @@ class CrashViewController: UIViewController {
 
     @IBAction func userIdButtonTapped(_: UIButton) {
         // Set a user id
-        MSAppCenter.setUserId("<CUSTOM USER ID HERE")
+        MSAppCenter.setUserId("123")
         print("set a user id")
         presentCustomUserIdAlert()
     }
